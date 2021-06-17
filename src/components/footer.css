@@ -1,0 +1,12 @@
+.Footer{
+ 
+}
+
+.Footer ul{
+  list-style-type: none;
+  display: flex;
+}
+
+.Footer ul li{
+  margin-right: 20px;
+}
