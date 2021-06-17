@@ -1,4 +1,9 @@
 .Header{
   display: flex;
-  
+  justify-content: space-around;
+}
+
+.Header h1{
+  margin-right: 30px;
+  margin-top: 28px;
 }
