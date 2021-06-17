@@ -1,6 +1,5 @@
 import './header.css';
-import MenuBurger from './MenuBurger'
-
+import MenuBurger from './MenuBurger';
 
 function Header() {
   return (
