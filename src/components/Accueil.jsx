@@ -4,6 +4,7 @@ import './accueil.css';
 function Accueil() {
   return (
     <div className="Accueil">
+      <h1> Accueil</h1>
       <img src={logo} alt="logo" className="logo" />
       <button type="button">Javascript</button>
       <button type="button">React</button>

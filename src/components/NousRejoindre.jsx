@@ -6,6 +6,7 @@ import './nousRejoindre.css';
 function NousRejoindre() {
   return (
     <div className="NousRejoindre">
+      <h1 className="titre">Nous rejoindre</h1>
       <div className="avatars">
         <img src={avatar1} alt="avatar1" />
         <img src={avatar2} alt="avatar2" />

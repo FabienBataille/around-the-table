@@ -1,12 +1,12 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
-import NousRejoindre from './components/NousRejoindre';
+import Connection from './components/Connection';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <NousRejoindre />
+      <Connection />
       <Footer />
     </div>
   );
