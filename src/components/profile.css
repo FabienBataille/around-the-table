@@ -1,0 +1,55 @@
+.titre{
+  text-align: center;
+}
+
+.avatar{
+  display: flex;
+  justify-content: center;
+}
+.avatarChoisi {
+  width: 90px;
+  border-radius: 50%;
+  border: solid;
+}
+
+.pseudo {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  margin: 60px 50px 40px 50px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  margin: 40px 50px 40px 50px;
+}
+
+.password {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  margin: 40px 50px 40px 50px;
+}
+
+.soumettre {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+input{
+  text-align: center;
+}
+
+.mise-a-jour{
+  display: flex;
+  justify-content: center;
+}
+
+.deconnection{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
