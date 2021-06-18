@@ -1,0 +1,45 @@
+.titre {
+  text-align: center;
+}
+
+.avatars img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.avatars {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 50px 0px 50px;
+}
+
+.choose {
+  text-align: center;
+}
+
+.pseudo {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  margin: 60px 50px 40px 50px;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  margin: 40px 50px 40px 50px;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  margin: 40px 50px 40px 50px;
+}
+
+.soumettre {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
