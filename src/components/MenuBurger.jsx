@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './menuBurger.css';
 import burger from '../images/burger.png';
 
@@ -9,16 +10,16 @@ function MenuBurger() {
           <img className="logoBurger" alt="logoBurger" src={burger} />
           <ul>
             <li>
-              <a href="/#">Javascript</a>
+              <Link to="/javascript">Javascript</Link>
             </li>
             <li>
-              <a href="/#">React</a>
+              <Link to="/react">React</Link>
             </li>
             <li>
-              <a href="/#">Node</a>
+              <Link to="/node">Node</Link>
             </li>
             <li>
-              <a href="/#">SQL</a>
+              <Link to="/sql">SQL</Link>
             </li>
           </ul>
         </li>

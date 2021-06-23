@@ -4,21 +4,23 @@
 
 .email {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 20px;
-  
-  margin: 100px 50px 50px 50px
 }
 
 .password {
   display: flex;
   justify-content: space-between;
   height: 20px;
-  margin: 80px 50px 40px 50px
+  margin: 80px 50px 40px 50px;
 }
 
-.soumettre{
+.soumettre {
   text-align: center;
   margin-top: 120px;
   margin-bottom: 160px;
+}
+
+.emailContainer {
+  margin: 100px 0px 80px 0px;
 }
