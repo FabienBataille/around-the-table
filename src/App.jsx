@@ -6,10 +6,7 @@ import Accueil from './components/Accueil';
 import Connection from './components/Connection';
 import Profile from './components/Profile';
 import NousRejoindre from './components/NousRejoindre';
-import Javascript from './components/Javascript';
-import PageReact from './components/PageReact';
-import PageNode from './components/PageNode';
-import PageSql from './components/PageSql';
+import QuestionList from './components/QuestionList';
 
 function App() {
   return (
@@ -28,16 +25,16 @@ function App() {
               <NousRejoindre />
             </Route>
             <Route exact path="/javascript">
-              <Javascript />
+              <QuestionList category="JavaScript" />
             </Route>
             <Route exact path="/react">
-              <PageReact />
+              <QuestionList category="React" />
             </Route>
             <Route exact path="/node">
-              <PageNode />
+              <QuestionList category="Node" />
             </Route>
             <Route exact path="/sql">
-              <PageSql />
+              <QuestionList category="SQL" />
             </Route>
             <Route exact path="/">
               <Accueil />
