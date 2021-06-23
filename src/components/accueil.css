@@ -1,5 +1,5 @@
 .logo {
-  width: 200px;
+  width: 150px;
 }
 
 .Accueil{
@@ -12,6 +12,8 @@
 button{
   width: 60%;
   font-size: 30px;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
+
+

@@ -13,6 +13,7 @@
 .list ul li {
   display: inherit;
   border-radius: 0;
+  font-size: 20px;
 }
 .list ul li:hover {
   border-radius: 0;

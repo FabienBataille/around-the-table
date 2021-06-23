@@ -1,8 +1,8 @@
-.titre{
+.titre {
   text-align: center;
 }
 
-.avatar{
+.avatar {
   display: flex;
   justify-content: center;
 }
@@ -16,13 +16,19 @@
   display: flex;
   justify-content: center;
   height: 20px;
-  margin: 60px 50px 40px 50px;
+}
+
+.pseudoContainer {
+  margin: 0px 50px 40px 50px;
 }
 
 .email {
   display: flex;
   justify-content: center;
   height: 20px;
+}
+
+.emailContainer {
   margin: 40px 50px 40px 50px;
 }
 
@@ -30,26 +36,26 @@
   display: flex;
   justify-content: center;
   height: 20px;
-  margin: 40px 50px 40px 50px;
 }
 
-.soumettre {
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 100px;
+.passwordContainer{
+  margin: 40px 50px 0px 50px;
 }
 
-input{
-  text-align: center;
+
+
+input {
+  margin: 0 auto;
 }
 
-.mise-a-jour{
+.mise-a-jour {
   display: flex;
   justify-content: center;
 }
 
-.deconnection{
+.deconnection {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
