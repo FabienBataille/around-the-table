@@ -7,6 +7,7 @@ import Connection from './components/Connection';
 import Profile from './components/Profile';
 import NousRejoindre from './components/NousRejoindre';
 import QuestionList from './components/QuestionList';
+import DetailQuestion from './components/DetailQuestion';
 
 function App() {
   return (
@@ -36,6 +37,12 @@ function App() {
             <Route exact path="/sql">
               <QuestionList category="SQL" />
             </Route>
+            <Route
+              exact
+              path="/detail-question/:id"
+              component={DetailQuestion}
+            />
+
             <Route exact path="/">
               <Accueil />
             </Route>
