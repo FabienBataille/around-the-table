@@ -9,9 +9,8 @@ function QuestionList(props) {
   const [questions, setQuestions] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:8000/questions/${category}`)
+      .get(`http://localhost:8000/questions/technos/${category}`)
       .then((response) => {
-        console.log(response.data);
         setQuestions(response.data);
       });
   }, []);
